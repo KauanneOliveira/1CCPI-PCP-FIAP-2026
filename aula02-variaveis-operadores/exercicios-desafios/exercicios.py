@@ -12,10 +12,10 @@ print()
 print("--- CONVERSOR DE TEMPERATURA ---")
 print("\tFahrenheit para Celsius")
 
-tempFahrenheit = float(input('Digite a temperatura em Fahrenheit: '))
-tempCelsius = (tempFahrenheit - 32) * 5 / 9
+temp_fahrenheit = float(input('Digite a temperatura em Fahrenheit: '))
+temp_celsius = (temp_fahrenheit - 32) * 5 / 9
 
-print(f'{tempFahrenheit:.1f} em Fahrenheit = {tempCelsius:.1f} em Celsius')
+print(f'{temp_fahrenheit:.1f} em Fahrenheit = {temp_celsius:.1f} em Celsius')
 print()
 
 
@@ -24,10 +24,10 @@ print("--- CONVERSOR DE TEMPERATURA ---")
 print("\tCelsius para Fahrenheit")
 
 
-tempCelsius = float(input('Digite a temperatura em Celsius: '))
-tempFahrenheit = (tempCelsius * 9 / 5) + 32
+temp_celsius = float(input('Digite a temperatura em Celsius: '))
+temp_fahrenheit = (temp_celsius * 9 / 5) + 32
 
-print(f'{tempCelsius:.1f} em Fahrenheit = {tempFahrenheit:.1f} em Celsius')
+print(f'{temp_celsius:.1f} em Fahrenheit = {temp_fahrenheit:.1f} em Celsius')
 print()
 
 # === EXER 4 ===
@@ -45,8 +45,8 @@ print("--- CALCULADORA DE TEMPO---")
 '''Um carro percorreu 150 km a uma velocidade média de 60 km/h. Quanto tempo (em horas) o carro levou para percorrer essa distancia?')'''
 
 distancia = 150
-velocidadeMedia = 60
-tempo = distancia / velocidadeMedia
+velocidade_media = 60
+tempo = distancia / velocidade_media
 
 print(f"O tempo foi de: {tempo} horas")
 print()
@@ -84,19 +84,19 @@ o usuário quer, o valor unitário de cada peça1, o nome de uma peça2, o núme
 unitário de cada peça2. Após, calcule e mostre o valor a ser pago'''
 
 peca1 = input('Digite o nome da primeira peca: ')
-qtdPeca1 = int(input('Digite a quantidade que deseja: '))
-valorPeca1 = float(input('Digite o valor da primeira peca: '))
+qtd_peca1 = int(input('Digite a quantidade que deseja: '))
+valor_peca1 = float(input('Digite o valor da primeira peca: '))
 
 peca2 = input('\nDigite o nome da segunda peca: ')
-qtdPeca2 = int(input('Digite a quantidade que deseja: '))
-valorPeca2 = float(input('Digite o valor da segunda  peca: '))
+qtd_peca2 = int(input('Digite a quantidade que deseja: '))
+valor_peca2 = float(input('Digite o valor da segunda  peca: '))
 
-totalPeca1 = (qtdPeca1 * valorPeca1)
-totalPeca2 = (qtdPeca2 * valorPeca2)
+total_peca1 = (qtd_peca1 * valor_peca1)
+total_peca2 = (qtd_peca2 * valor_peca2)
 
-print(f"\nValor total da(o) {peca1}: {totalPeca1}")
-print(f"Valor total da(o) {peca2}: {totalPeca2}")
-print(f'Valor final a ser pago pelas pecas: {totalPeca1 + totalPeca2}')
+print(f"\nValor total da(o) {peca1}: {total_peca1}")
+print(f"Valor total da(o) {peca2}: {total_peca2}")
+print(f'Valor final a ser pago pelas pecas: {total_peca1 + total_peca2}')
 print()
 
 
@@ -109,9 +109,9 @@ print("--- TROCO DE PAGAMENTO ---")
 ▪ O valor do troco deve ser exibido no terminal
 '''
 
-valorProduto = float(input('Digite o valor do produto: '))
-valorPago = float(input('Digite o valor do pagamento: '))
+valor_produto = float(input('Digite o valor do produto: '))
+valor_pago = float(input('Digite o valor do pagamento: '))
 
-troco = valorPago - valorProduto
+troco = valor_pago - valor_produto
 
 print(f"O valor do troco do cliente e: `{troco}")

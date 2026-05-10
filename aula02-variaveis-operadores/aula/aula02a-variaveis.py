@@ -1,4 +1,5 @@
-print("--- PRIMEIROS COMANDOS ---")
+# PRIMEIROS COMANDOS
+#==========================================
 
 print('Olá, Mundo')
 print(7 + 4)
