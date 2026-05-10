@@ -55,8 +55,6 @@ print()
 # === EXER 6 ===
 print("--- MEDIA DE DUAS NOTAS ---")
 
-'''Leia 2 valores A e B, que correspondem a 2 notas de um aluno. A seguir calcule e informe a média
-aritmética do aluno'''
 
 A = float(input("Digite a primeira nota: "))
 B = float(input("Digite a segunda nota: "))
@@ -65,9 +63,6 @@ print()
 
 # === EXER 7 ===
 print("--- MEDIA DE NOTAS COM PESO DIFERENTES---")
-
-'''Leia 2 valores A e B, que correspondem a 2 notas de um aluno. A seguir calcule e informe a média
-ponderada do aluno, sabendo que a nota A tem peso 4 e a nota B tem peso 6.'''
 
 A = float(input("Digite a primeira nota: "))
 B = float(input("Digite a segunda nota: "))
@@ -78,10 +73,6 @@ print()
 
 # === EXER 8 ===
 print("--- GASTO TOTAL (PECAS) ---")
-
-'''Neste problema, deve-se ler o nome de uma peça que chamaremos de peça1, o número de peças1 que
-o usuário quer, o valor unitário de cada peça1, o nome de uma peça2, o número de peças2 e o valor
-unitário de cada peça2. Após, calcule e mostre o valor a ser pago'''
 
 peca1 = input('Digite o nome da primeira peca: ')
 qtd_peca1 = int(input('Digite a quantidade que deseja: '))
@@ -102,12 +93,6 @@ print()
 
 # === EXER 9 ===
 print("--- TROCO DE PAGAMENTO ---")
-
-'''
-▪ Crie um programa que receba o valor do produto e valor pago.
-▪ Calcule o troco a ser pago. 
-▪ O valor do troco deve ser exibido no terminal
-'''
 
 valor_produto = float(input('Digite o valor do produto: '))
 valor_pago = float(input('Digite o valor do pagamento: '))
