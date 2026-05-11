@@ -1,3 +1,8 @@
+"""
+Em muitos dos nossos algoritmos fizemos validações dos dados de entrada. Contudo, apenas exibíamos mensagens e encerrávamos nossos algoritmos. Com os comandos de repetição temos condições de garantir que a informação esteja correta antes do algoritmo continuar.
+▪ Atividade 2: Escreva um programa que dadas duas notas de 0 a 10 calcula a média aritmética entre elas
+"""
+
 def validar_nota(nota):
     while nota < 0 or nota > 10:
         print("A nota deve estar entre 0 e 10")
