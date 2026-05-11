@@ -27,7 +27,7 @@ for sala in temperaturas:
           f"Média: {media}\n"
           f"Registros críticos: {registro_critico}\n")
 
-    # bubble sort para atualizar o maior registro
+    # comparacao para atualizar o maior registro
     if registro_critico > maior_registro:
         maior_registro = registro_critico
         sala_maior_registro = i
